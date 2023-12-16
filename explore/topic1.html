@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>MMS 142: Renewable Energy</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,900;1,6..12,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <section class="exploreHeader">
+            <nav>
+                <a href="../index.html"><img src="../Images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="material-icons" onclick="hideMenu()">clear</i>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../explore.html">EXPLORE</a></li>
+                        <li><a href="../about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="material-icons" onclick="showMenu()">menu</i>
+            </nav>
+
+       <h1>Renewable Energy as a Disruptive Technology</h1>
+    </section>
+
+    <!--Content Section-->
+
+    <section class="topic-content">
+        <div class="blog">
+
+            <img src="../Images/topic1-content.jpg">
+            <h2>Renewable Energy as a Disruptive Technology</h2>
+            <p>Often known as clean energy, renewable energy originates from naturally occurring processes or sources that are continuously renewed (Shinn, 2022). Examples of renewable energy are sunlight, wind, marine, geothermal heat, and various forms of biomass (PennState Extention, 2023). Their diversity, abundance, and global use set them apart from fossil fuels, but perhaps most importantly, they do not emit any greenhouse gases or other pollutants that contribute to climate change (Acciona, n.d.). The development of renewable energy systems will enable the resolution of many of the current most pressing issues, such as enhancing the economy and reliability of the energy supply, addressing issues with local water and energy supplies, raising the living standard and employment of the local populace, ensuring sustainable development of remote areas in the desert and mountains, and putting national obligations regarding environmental protection into practice (Zakhidov, 2008).</p>
+            <br>
+            <p>add second paragraph</p>
+            <br>
+            <p>add third paragraph</p>
+            
+        </div>
+    </section>
+
+     <!--footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This static webpage was designed and developed by Group C of Class 2023 for the course MMS 142: Internet Technologies and Web Development. <br>
+            This serves as a partial fulfillment of the requirements for MMS 142.</p>
+    </section>
+
+    <!--toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"; 
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>MMS 142: Renewable Energy</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,900;1,6..12,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <section class="exploreHeader">
+            <nav>
+                <a href="../index.html"><img src="../Images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="material-icons" onclick="hideMenu()">clear</i>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../explore.html">EXPLORE</a></li>
+                        <li><a href="../about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="material-icons" onclick="showMenu()">menu</i>
+            </nav>
+
+       <h1>Renewable Energy as a Disruptive Technology</h1>
+    </section>
+
+    <!--Content Section-->
+
+    <section class="topic-content">
+        <div class="blog">
+            
+            <img src="../Images/topic1-content.jpg"> <!--change photo-->
+            <h2>Energy Sector Conditions and the Need for Disruptive Technology</h2>
+            <p>add content here</p> 
+            <!--add <br> in between paragraphs-->
+            
+        </div>
+    </section>
+
+
+
+    
+     <!--footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This static webpage was designed and developed by Group C of Class 2023 for the course MMS 142: Internet Technologies and Web Development. <br>
+            This serves as a partial fulfillment of the requirements for MMS 142.</p>
+    </section>
+
+    <!--toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"; 
+        }
+    </script>
+
+</body>
+</html>
