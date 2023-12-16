@@ -1,0 +1,93 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>MMS 142: Renewable Energy</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,900;1,6..12,200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <section class="exploreHeader">
+                <nav>
+                    <a href="index.html"><img src="Images/logo.png"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="material-icons" onclick="hideMenu()">clear</i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="explore.html">EXPLORE</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                        </ul>
+                    </div>
+                    <i class="material-icons" onclick="showMenu()">menu</i>
+                </nav>
+        <h1>Renewable Energy as a Disruptive Technology</h1>
+        </section>
+
+        <!--Topics-->
+
+        <section class="exploreTopics">
+            <h1>Navigating the Landscape of Renewable Energy</h1>
+            <p>In this space, we delve into the disruptive force that renewable energy represents, challenging the status quo and reshaping the landscape of sustainability. Explore the intricacies of renewable energy's transformative potential, addressing its advantages, disadvantages, economic impacts, and the pivotal role of regulations and policies. </p>
+            <div class="exploreRow">
+                <div class="exploreCol">
+                    <a href="explore/topic1.html">
+                        <h3>Renewable Energy as a Disruptive Technology</h3>
+                        <p>
+                            This examination explores renewable energy's transformative role as a disruptive technology, emphasizing its clean sources like sunlight, wind, and biomass. Distinguished by their lack of greenhouse gas emissions, these alternatives challenge traditional fossil fuels, presenting solutions for global challenges and reshaping the energy sector.</p>
+                    </a>
+                </div>
+                <div class="exploreCol">
+                    <a href="explore/topic2.html">
+                        <h3>Energy Sector Conditions and the Need for Disruptive Technology</h3>
+                        <p>
+                            This explores the necessity of disruptive technology in the energy sector, driven by the industry's substantial contribution to global greenhouse gas emissions. As natural gas, wind, and solar rapidly replace coal, the urgent shift to renewable energy gains prominence, driven by sustainability goals and the imperative to cut CO2 emissions to achieve global climate targets.</p>
+                    </a>
+                </div>
+                <div class="exploreCol">
+                    <a href="explore/topic3.html">
+                        <h3>Advantages and Disadvantages of Renewable Energy</h3>
+                        <p>Delving into the dynamic landscape of renewable energy, this discussion navigates the advantages and challenges inherent in its adoption. From exploring the reliability of renewable energy sources to unraveling the potential drawbacks and challenges that accompany the implementation of these transformative systems.</p>
+                    </a>
+                </div>
+                <div class="exploreCol">
+                    <a href="explore/topic4.html">
+                        <h3>The Economic Impact of Renewable Energy</h3>
+                        <p>This exploration delves into the economic impact of renewable energy, highlighting its role in creating sustainable industries and job opportunities while fostering energy independence.</p>
+                    </a>
+                </div>
+                <div class="exploreCol">
+                    <a href="explore/topic5.html">
+                        <h3>Regulations and Policies</h3>
+                        <p> This delves into the pivotal role of government regulations in promoting renewable energy usage. Examining both national and foreign policies, we explore the mechanisms in place to encourage adoption.</p>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>This static webpage was designed and developed by Group C of Class 2023 for the course MMS 142: Internet Technologies and Web Development. <br>
+                This serves as a partial fulfillment of the requirements for MMS 142.</p>
+        </section>
+
+        <!--toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px"; 
+            }
+        </script>
+
+    </body>
+    </html>
