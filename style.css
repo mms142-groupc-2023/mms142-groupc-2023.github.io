@@ -369,7 +369,59 @@ p {
     }
 }
 
-/* Explore: Main Content Pages*/
+/*Explore: Main Landing Page*/
+
+.exploreTopics{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.exploreRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.exploreCol {
+    flex: 0 0 100%; 
+    background: rgba(109, 155, 81, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.exploreCol a {
+    display: block;
+    text-decoration: none;
+    color: inherit; 
+}
+.exploreCol:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Explore: Content Pages*/
 
 .exploreHeader{
     height: 50vh;
